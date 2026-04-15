@@ -131,4 +131,4 @@ app.get('/callback', async (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`🌐 เว็บเซิร์ฟเวอร์ทำงานที่พอร์ต ${PORT}`));
-client.login(TOKEN);
+client.login(process.env.TOKEN);
